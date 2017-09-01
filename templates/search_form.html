@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单登录</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		html, body {
+			width: 100%;
+		}
+		.login-wrapper {
+			width: 200px;
+			border: 1px solid black;
+			margin: 0 auto;
+			margin-top: 10%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="login-wrapper">
+		<h1>登录</h1>
+		<div>
+			<form action="/search" method="GET">
+				<input type="text" name="username" placeholder="请输入用户名"><br>
+				<input type="password" name="password" placeholder="请输入密码"><br>
+				<input type="submit" value="登录">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
